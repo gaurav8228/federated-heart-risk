@@ -1,0 +1,49 @@
+{
+  "dataset": {
+    "name": "UCI Heart Disease (Cleveland + Hungarian + Switzerland + VA)",
+    "patients": 920,
+    "train": 736,
+    "test": 184,
+    "disease_rate": 0.5533
+  },
+  "best_model": "ann",
+  "best_auc": 0.9059,
+  "metrics": {
+    "logistic_regression": {
+      "accuracy": 0.8152,
+      "precision": 0.8269,
+      "recall": 0.8431,
+      "f1": 0.835,
+      "auc": 0.8944
+    },
+    "random_forest": {
+      "accuracy": 0.7989,
+      "precision": 0.8037,
+      "recall": 0.8431,
+      "f1": 0.823,
+      "auc": 0.9055
+    },
+    "xgboost": {
+      "accuracy": 0.8315,
+      "precision": 0.8257,
+      "recall": 0.8824,
+      "f1": 0.8531,
+      "auc": 0.8914
+    },
+    "ann": {
+      "accuracy": 0.8098,
+      "precision": 0.8131,
+      "recall": 0.8529,
+      "f1": 0.8325,
+      "auc": 0.9059
+    }
+  },
+  "saved_files": [
+    "ml/models/model_logistic_regression.joblib",
+    "ml/models/model_random_forest.joblib",
+    "ml/models/model_xgboost.joblib",
+    "ml/models/model_ann.joblib",
+    "ml/models/best_model.joblib"
+  ],
+  "train_seconds": 1.5
+}

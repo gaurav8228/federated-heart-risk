@@ -1,0 +1,22 @@
+# secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+frontend/dist/
+
+# Generated files (teammates rebuild these)
+ml/models/*.joblib
+ml/explain/*.png
+fl/last_run.log
+uvicorn*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
